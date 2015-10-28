@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project Zero: My App Portfolio</string>
+    <string name="project1Name">SPOTIFY STREAMER</string>
+    <string name="project2Name">SCORES APP</string>
+    <string name="Project3Name">LIBRARY APP</string>
+    <string name="Project4Name">BUILD IT BIGGER</string>
+    <string name="project5Name">XYZ READER</string>
+    <string name="project6Name">CAPSTONE: MY OWN APP</string>
+    <string name="headerText">My Nanodegree Apps</string>
+</resources>
