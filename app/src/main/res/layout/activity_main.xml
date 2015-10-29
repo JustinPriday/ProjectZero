@@ -8,89 +8,57 @@
     android:background="#cccccc">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/headerText"
         android:text="@string/headerText"
-        android:id="@+id/headerText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#333333"
-        android:layout_marginBottom="20dp"
-        android:textSize="25dp" />
+        android:id="@+id/headerText" />
 
     <Button
-        android:layout_width="0px"
-        android:layout_height="60dp"
+        style="@style/ProjectButton"
         android:text="@string/project1Name"
         android:id="@+id/project1Button"
         android:layout_below="@+id/headerText"
-        android:layout_centerHorizontal="true"
         android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button"
-        android:background="#f08c35"
-        android:layout_marginTop="4dp" />
+        android:layout_alignRight="@+id/project6Button" />
 
     <Button
-        android:layout_width="0px"
-        android:layout_height="60dp"
+        style="@style/ProjectButton"
         android:text="@string/project2Name"
         android:id="@+id/project2Button"
         android:layout_below="@+id/project1Button"
-        android:layout_centerHorizontal="true"
         android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button"
-        android:background="#f08c35"
-        android:layout_marginTop="4dp" />
+        android:layout_alignRight="@+id/project6Button" />
 
     <Button
-        android:layout_width="0px"
-        android:layout_height="60dp"
+        style="@style/ProjectButton"
         android:text="@string/Project3Name"
         android:id="@+id/project3Button"
         android:layout_below="@+id/project2Button"
-        android:layout_centerHorizontal="true"
         android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button"
-        android:background="#f08c35"
-        android:layout_marginTop="4dp" />
+        android:layout_alignRight="@+id/project6Button" />
 
     <Button
-        android:layout_width="0px"
-        android:layout_height="60dp"
+        style="@style/ProjectButton"
         android:text="@string/Project4Name"
         android:id="@+id/project4Button"
         android:layout_below="@+id/project3Button"
-        android:layout_centerHorizontal="true"
         android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button"
-        android:background="#f08c35"
-        android:layout_marginTop="4dp" />
+        android:layout_alignRight="@+id/project6Button" />
 
     <Button
-        android:layout_width="0px"
-        android:layout_height="60dp"
+        style="@style/ProjectButton"
         android:text="@string/project5Name"
         android:id="@+id/project5Button"
         android:layout_below="@+id/project4Button"
-        android:layout_centerHorizontal="true"
         android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button"
-        android:background="#f08c35"
-        android:layout_marginTop="4dp" />
+        android:layout_alignRight="@+id/project6Button" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        style="@style/ProjectButton.CapStone"
         android:text="@string/project6Name"
         android:id="@+id/project6Button"
-        android:layout_below="@+id/project5Button"
-        android:layout_centerHorizontal="true"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:background="#3a4fb7"
-        android:layout_marginTop="4dp"
-        android:textColor="#ffffff" />
+        android:layout_below="@+id/project5Button" />
 
 
 </RelativeLayout>
+
+
