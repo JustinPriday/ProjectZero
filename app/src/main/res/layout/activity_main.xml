@@ -12,53 +12,68 @@
         android:text="@string/headerText"
         android:id="@+id/headerText" />
 
-    <Button
-        style="@style/ProjectButton"
-        android:text="@string/project1Name"
-        android:id="@+id/project1Button"
-        android:layout_below="@+id/headerText"
-        android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerText">
 
-    <Button
-        style="@style/ProjectButton"
-        android:text="@string/project2Name"
-        android:id="@+id/project2Button"
-        android:layout_below="@+id/project1Button"
-        android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                style="@style/ProjectButton"
+                android:text="@string/project1Name"
+                android:id="@+id/project1Button"
+                android:layout_alignLeft="@+id/project7Button"
+                android:layout_alignRight="@+id/project7Button" />
 
-    <Button
-        style="@style/ProjectButton"
-        android:text="@string/Project3Name"
-        android:id="@+id/project3Button"
-        android:layout_below="@+id/project2Button"
-        android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button" />
+            <Button
+                style="@style/ProjectButton"
+                android:text="@string/project2Name"
+                android:id="@+id/project2Button"
+                android:layout_below="@+id/project1Button"
+                android:layout_alignLeft="@+id/project7Button"
+                android:layout_alignRight="@+id/project7Button" />
 
-    <Button
-        style="@style/ProjectButton"
-        android:text="@string/Project4Name"
-        android:id="@+id/project4Button"
-        android:layout_below="@+id/project3Button"
-        android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button" />
+            <Button
+                style="@style/ProjectButton"
+                android:text="@string/Project3Name"
+                android:id="@+id/project3Button"
+                android:layout_below="@+id/project2Button"
+                android:layout_alignLeft="@+id/project7Button"
+                android:layout_alignRight="@+id/project7Button" />
 
-    <Button
-        style="@style/ProjectButton"
-        android:text="@string/project5Name"
-        android:id="@+id/project5Button"
-        android:layout_below="@+id/project4Button"
-        android:layout_alignLeft="@+id/project6Button"
-        android:layout_alignRight="@+id/project6Button" />
+            <Button
+                style="@style/ProjectButton"
+                android:text="@string/Project4Name"
+                android:id="@+id/project4Button"
+                android:layout_below="@+id/project3Button"
+                android:layout_alignLeft="@+id/project7Button"
+                android:layout_alignRight="@+id/project7Button" />
 
-    <Button
-        style="@style/ProjectButton.CapStone"
-        android:text="@string/project6Name"
-        android:id="@+id/project6Button"
-        android:layout_below="@+id/project5Button" />
+            <Button
+                style="@style/ProjectButton"
+                android:text="@string/project5Name"
+                android:id="@+id/project5Button"
+                android:layout_below="@+id/project4Button"
+                android:layout_alignLeft="@+id/project7Button"
+                android:layout_alignRight="@+id/project7Button" />
 
+            <Button
+                style="@style/ProjectButton"
+                android:text="@string/project6Name"
+                android:id="@+id/project6Button"
+                android:layout_below="@+id/project5Button"
+                android:layout_alignLeft="@+id/project7Button"
+                android:layout_alignRight="@+id/project7Button" />
 
+            <Button
+                style="@style/ProjectButton.CapStone"
+                android:text="@string/project7Name"
+                android:id="@+id/project7Button"
+                android:layout_below="@+id/project6Button" />
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
 
 

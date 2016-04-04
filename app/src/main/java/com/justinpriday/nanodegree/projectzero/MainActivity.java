@@ -18,30 +18,42 @@ public class MainActivity extends AppCompatActivity {
     public void showToast(View V) {
         switch(V.getId()) {
             case R.id.project1Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my Spotify Streamer App", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"This button will launch my Spotify Streamer App", Toast.LENGTH_SHORT).show();
+                //Launch com.justinpriday.nonodegree.projectTwo
+//                Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.package.address");
+//                startActivity(launchIntent);
+                startActivity(getPackageManager().getLaunchIntentForPackage("com.justinpriday.nonodegree.projectTwo"));
                 break;
 
             case R.id.project2Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my Scores App", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"This button will launch my Scores App", Toast.LENGTH_SHORT).show();
+                //barqsoft.footballscores
+                startActivity(getPackageManager().getLaunchIntentForPackage("barqsoft.footballscores"));
                 break;
 
             case R.id.project3Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my Library Streamer App", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"This button will launch my Library Streamer App", Toast.LENGTH_SHORT).show();
+                //it.jaschke.alexandria
+                startActivity(getPackageManager().getLaunchIntentForPackage("it.jaschke.alexandria"));
                 break;
 
             case R.id.project4Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my Build It Bigger Streamer App", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"This button will launch my Build It Bigger Streamer App", Toast.LENGTH_SHORT).show();
+                //com.udacity.gradle.builditbigger.free
+                startActivity(getPackageManager().getLaunchIntentForPackage("com.udacity.gradle.builditbigger.free"));
                 break;
 
             case R.id.project5Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my XYZ Reader Streamer App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my Make Your App Material App", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.project6Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my Capstone Streamer App", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my Go Ubiquitous App", Toast.LENGTH_SHORT).show();
                 break;
 
-
+            case R.id.project7Button:
+                Toast.makeText(getApplicationContext(),"This button will launch my Capstone App", Toast.LENGTH_SHORT).show();
+                break;
         }
     }
 }

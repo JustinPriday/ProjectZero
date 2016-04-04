@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Project Zero: My App Portfolio</string>
-    <string name="project1Name">SPOTIFY STREAMER</string>
+    <string name="app_title">My Portfolio</string>
+    <string name="project1Name">POPULAR MOVIES</string>
     <string name="project2Name">SCORES APP</string>
     <string name="Project3Name">LIBRARY APP</string>
-    <string name="Project4Name">BUILD IT BIGGER</string>
-    <string name="project5Name">XYZ READER</string>
-    <string name="project6Name">CAPSTONE: MY OWN APP</string>
+    <string name="Project4Name">JOKENATOR (FREE)</string>
+    <string name="project5Name">MAKE IT MATERIAL</string>
+    <string name="project6Name">GO UBIQUITOUS</string>
+    <string name="project7Name">CAPSTONE: MY OWN APP</string>
     <string name="headerText">My Nanodegree Apps</string>
 </resources>
