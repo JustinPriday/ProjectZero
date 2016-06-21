@@ -50,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.project6Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my Go Ubiquitous App", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"This button will launch my Go Ubiquitous App", Toast.LENGTH_SHORT).show();
+                //com.example.android.sunshine.app
+                startActivity(getPackageManager().getLaunchIntentForPackage("com.example.android.sunshine.app"));
                 break;
 
             case R.id.project7Button:
