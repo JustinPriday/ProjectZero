@@ -44,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.project5Button:
-                Toast.makeText(getApplicationContext(),"This button will launch my Make Your App Material App", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"This button will launch my Make Your App Material App", Toast.LENGTH_SHORT).show();
+                //com.example.xyzreader
+                startActivity(getPackageManager().getLaunchIntentForPackage("com.example.xyzreader"));
                 break;
 
             case R.id.project6Button:
